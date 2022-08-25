@@ -1,0 +1,35 @@
+#result, #hunts{
+	float:left;
+	min-width560px;
+	max-width:600px;
+	margin-right:50px;
+}
+.unknown, .bad, .good ,.danger{
+    width: 50px;
+    height: 50px;
+	margin-right:5px;
+	margin-bottom:5px;
+	float:left
+}
+.unknown{
+    background-color: gray;
+}
+.bad{
+	background-color:red
+}
+.good{
+	background-color:green
+}
+.danger{
+	background-color:orange
+}
+.stopper{
+	float:none
+	clear:both;
+}
+.hunt{
+	border-style:none none solid none;
+	border-color:black;
+	clear:both;
+	min-height: 200px;
+}
