@@ -232,7 +232,8 @@ function handleLeftClick(elem){
 	handle_hunts(ds,true)
 	print_hunts()
 }
-function handleRightClick(elem){
+function handleRightClick(e,elem){
+	e.preventDefault();
 	elem.classList.remove('unknown')
 	elem.classList.add('bad')
 	let ds=elem.dataset
@@ -240,6 +241,8 @@ function handleRightClick(elem){
 	print_hunts()
 }
 window.onload=function(e){
+	let reloaddiv=document.getElementById('reload')
+	reloaddiv.onclick=function(){window.location.reload(true)}
 	let resdiv=document.getElementById('result')
 	for(i=0;i<3;i++){
 		for(j=0;j<10;j++){
@@ -248,7 +251,7 @@ window.onload=function(e){
 			item.dataset.i=i
 			item.dataset.j=j
 			item.onclick=function(){handleLeftClick(item)}
-			item.oncontextmenu=function(){handleRightClick(item)}
+			item.oncontextmenu=function(e){handleRightClick(e,item)}
 			resdiv.appendChild(item)
 		}
 		let br=document.createElement('div')
