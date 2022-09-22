@@ -260,6 +260,83 @@ hunt=[
 	new mime(0,3),new mime(1,1),new mime(2,6),new mime(2,9)
 ]
 hunts.push(hunt)
+//
+hunt=[
+	new mime(0,0),new mime(0,7),new mime(1,4),new mime(1,8)
+]
+hunts.push(hunt)
+//
+hunt=[
+	new mime(0,1),new mime(1,2),new mime(1,8),new mime(2,0)
+]
+hunts.push(hunt)
+//
+hunt=[
+	new mime(0,3),new mime(0,6),new mime(2,0),new mime(2,8)
+]
+hunts.push(hunt)
+//
+hunt=[
+	new mime(1,0),new mime(1,6),new mime(2,0),new mime(2,60)
+]
+hunts.push(hunt)
+//
+hunt=[
+	new mime(0,4),new mime(1,3),new mime(1,9),new mime(2,4)
+]
+hunts.push(hunt)
+//
+hunt=[
+	new mime(0,0),new mime(1,3),new mime(2,0),new mime(2,4)
+]
+hunts.push(hunt)
+//
+hunt=[
+	new mime(0,8),new mime(1,7),new mime(2,4),new mime(2,8)
+]
+hunts.push(hunt)
+//
+hunt=[
+	new mime(0,5),new mime(1,3),new mime(1,4),new mime(2,9)
+]
+hunts.push(hunt)
+//
+hunt=[
+	new mime(0,6),new mime(1,8),new mime(2,1),new mime(2,8)
+]
+hunts.push(hunt)
+//
+hunt=[
+	new mime(0,3),new mime(0,9),new mime(1,9),new mime(2,7)
+]
+hunts.push(hunt)
+//
+hunt=[
+	new mime(0,2),new mime(2,5),new mime(2,7),new mime(2,9)
+]
+hunts.push(hunt)
+//
+hunt=[
+	new mime(0,5),new mime(0,8),new mime(1,4),new mime(2,6)
+]
+hunts.push(hunt)
+//
+hunt=[
+	new mime(0,1),new mime(0,5),new mime(2,3),new mime(2,4)
+]
+hunts.push(hunt)
+//
+hunt=[
+	new mime(1,0),new mime(1,2),new mime(1,7),new mime(2,8)
+]
+hunts.push(hunt)
+//
+hunt=[
+	new mime(0,3),new mime(1,4),new mime(1,5),new mime(2,8)
+]
+hunts.push(hunt)
+
+//alert('there are '+hunts.length+' hunts. wow.')
 /*
 //
 hunt=[
